@@ -114,8 +114,8 @@ let textone = document.querySelector('.textone').querySelector('h1');
       },10000)
 	  
 	  	setTimeout(function(){
-        textone.innerHTML = '';
-        texttwo.innerHTML = '';
+        textone.innerHTML = '你确实是个内向的姑娘';
+        texttwo.innerHTML = '希望能慢慢了解and相处吧 ~';
         textthree.innerHTML = '';
 
       },20000)
