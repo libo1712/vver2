@@ -99,7 +99,7 @@ let textone = document.querySelector('.textone').querySelector('h1');
       let textthree = document.querySelector('.textthree').querySelector('h1');
 
       setTimeout(function(){
-		  textone.innerHTML = 'VV 你好呀！很高兴认识你';
+		  textone.innerHTML = '每日更新 -.-';
           textone.style.color = '#E8F9FD';
           textone.style.fontFamily = '楷体'
 		  textone.style.fontSize = '25px';
@@ -109,14 +109,14 @@ let textone = document.querySelector('.textone').querySelector('h1');
           textthree.style.color = '#E8F9FD';
           textthree.style.fontFamily = '楷体'
 		  textthree.style.fontSize = '25px';
-          texttwo.innerHTML = '前两周一直在加班写文档，回宿舍的时候已经好晚了，所以也不太好意思找你聊天 \n 然后过了两周，文档写的差不多了，又不知道如何开口了，感觉在聊天就很突兀 = =';
-		  textthree.innerHTML = '所以，就这能借助这样的方式啦，这三天白天上班网上写这个代码，终于做出来了 \n 就是做的不太好看，哈哈哈 (◕ᴗ◕✿)';
+          texttwo.innerHTML = '天天要有好心情~';
+		  textthree.innerHTML = '祝你周末愉快 (๑*◡*๑)';
       },10000)
 	  
 	  	setTimeout(function(){
-        textone.innerHTML = '我也比较内向，所以只能靠我比较擅长的形式打开话题了，希望你喜欢';
-        texttwo.innerHTML = '这个域名是属于你的专属了~ \n 这十年内里没人可以得到';
-        textthree.innerHTML = '这就是我想说，不知道算的上礼物么？希望不是惊吓就好，哈哈哈';
+        textone.innerHTML = '';
+        texttwo.innerHTML = '';
+        textthree.innerHTML = '';
 
       },20000)
 	  
