@@ -99,7 +99,7 @@ let textone = document.querySelector('.textone').querySelector('h1');
       let textthree = document.querySelector('.textthree').querySelector('h1');
 
       setTimeout(function(){
-		  textone.innerHTML = '每日更新 -.-';
+		  textone.innerHTML = '每日更新 (✪ω✪)';
           textone.style.color = '#E8F9FD';
           textone.style.fontFamily = '楷体'
 		  textone.style.fontSize = '25px';
@@ -109,13 +109,13 @@ let textone = document.querySelector('.textone').querySelector('h1');
           textthree.style.color = '#E8F9FD';
           textthree.style.fontFamily = '楷体'
 		  textthree.style.fontSize = '25px';
-          texttwo.innerHTML = '天天要有好心情~';
-		  textthree.innerHTML = '祝你周末愉快 (๑*◡*๑)';
+          texttwo.innerHTML = '~';
+		  textthree.innerHTML = '新的一周要努力 (๑*◡*๑)';
       },10000)
 	  
 	  	setTimeout(function(){
-        textone.innerHTML = '你确实是个内向的姑娘';
-        texttwo.innerHTML = '希望能慢慢了解and相处吧 ~';
+        textone.innerHTML = '希望我们能多聊聊天呢';
+        texttwo.innerHTML = '不知道你还会看这个网页嘛 哈哈';
         textthree.innerHTML = '';
 
       },20000)
