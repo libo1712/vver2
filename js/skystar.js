@@ -109,13 +109,13 @@ let textone = document.querySelector('.textone').querySelector('h1');
           textthree.style.color = '#E8F9FD';
           textthree.style.fontFamily = '楷体'
 		  textthree.style.fontSize = '25px';
-          texttwo.innerHTML = '~';
-		  textthree.innerHTML = '新的一周要努力 (๑*◡*๑)';
+          texttwo.innerHTML = '这一周天天加班，现在可太卷了~';
+		  textthree.innerHTML = '进来的时候不知道这么忙呢  ಠ╭╮ಠ';
       },10000)
 	  
 	  	setTimeout(function(){
-        textone.innerHTML = '希望我们能多聊聊天呢';
-        texttwo.innerHTML = '不知道你还会看这个网页嘛 哈哈';
+        textone.innerHTML = '有时候想找你聊天不知道说啥  哈哈哈';
+        texttwo.innerHTML = '疫情形势很严峻，注意防护噢 ！';
         textthree.innerHTML = '';
 
       },20000)
